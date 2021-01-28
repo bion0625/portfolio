@@ -18,7 +18,7 @@
 				border: 1px solid gray;
 			}
 			#head_var li a:hover{
-				color: #aaa;
+				color: #000;
 				background: #fff;
 			}
 			#menu_var{
@@ -47,6 +47,30 @@
 				border: 1px solid gray;
 				text-align: center;
 			}
+			#write a{
+				position: absolute;
+				margin-top: 110px;
+				margin-left: 1000px;
+				width: 200px;
+				color: #fff;
+				background: #888;
+				text-align: center;
+			}
+			#write a:hover{
+				color: #888;
+				background: #fff;
+				border: 1px solid #888;
+			}
+			
+			#board{
+				border-collapse: collapse;
+				width: 1200px;
+				margin-top: 150px;
+				position: absolute;
+			}
+			#board td{
+				padding: 10px;
+			}
 		</style>
 	</head>
 	<body>
@@ -66,5 +90,22 @@
 				<li><a href="#">ADMIN</a></li>
 			</ul>
 		</div>
+		<div id="write">
+		<a href="#">글쓰기</a>
+		</div>
+		
+		<table id="board" border="1">
+			<tr>
+				<th width="70%">제목</th>
+				<th width="15%">작성자</th>
+				<th width="15%">작성일자</th>
+			</tr>
+			<tr>
+				<td><a href="#">샘플</a></td>
+				<td><a href="#">샘플</a></td>
+				<td><a href="#">샘플</a></td>
+			</tr>
+		</table>
+		
 	</body>
 </html>
