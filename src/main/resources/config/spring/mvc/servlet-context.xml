@@ -30,6 +30,9 @@
 	<!-- 컨트롤러 수동생성  -->
 	<beans:bean class="korea.com.portfolio.HomeController">
 	</beans:bean>
+
+	<beans:bean class="korea.com.portfolio.BoardController">
+	</beans:bean>
 	
 	
 </beans:beans>

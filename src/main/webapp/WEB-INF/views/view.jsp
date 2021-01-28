@@ -129,6 +129,23 @@
 			}
 			#board td{
 				padding: 10px;
+				width: 1200px;
+			}
+			#board tr:last-child{
+				position: absolute;
+			}
+			#board tr a{
+				width: 200px;
+				color: #fff;
+				background: #888;
+				text-align: center;
+				border: 1px #fff solid;
+				float: right;
+			}
+			#board a:hover{
+				color: #888;
+				background: #fff;
+				border: 1px solid #888;
 			}
 		</style>
 	</head>
@@ -154,20 +171,25 @@
 				<td id="result" width="50%" align="center"></td>
 			</tr>
 		</table>
-		<div id="write">
-			<a href="insert.do">글쓰기</a>
-		</div>
 		
-		<table id="board" border="1">
+		<table id="board" border="2">
 			<tr>
-				<th width="70%">제목</th>
-				<th width="15%">작성자</th>
-				<th width="15%">작성일자</th>
+				<th width="10%">제목</th>
+				<td width="40%">제목 샘플</td>
+				<th width="10%">작성자</th>
+				<td width="40%">작성자 샘플</td>
 			</tr>
 			<tr>
-				<td><a href="view.do">샘플</a></td>
-				<td><a href="#">샘플</a></td>
-				<td><a href="#">샘플</a></td>
+				<td colspan="4">
+					내용 샘플<br>
+					내용 샘플<br>
+					내용 샘플<br>
+					내용 샘플
+					<hr>
+					<a href="#">수정</a>
+					<a href="#">삭제</a>
+					<a href="#">댓글</a>
+				</td>
 			</tr>
 		</table>
 		

@@ -130,6 +130,21 @@
 			#board td{
 				padding: 10px;
 			}
+			#board a{
+				width: 200px;
+				color: #fff;
+				background: #888;
+				text-align: center;
+				display: block;
+				border: 1px #fff solid;
+				margin-left: 1000px;
+			}
+			#board a:hover{
+				color: #888;
+				background: #fff;
+				border: 1px solid #888;
+				display: block;
+			}
 		</style>
 	</head>
 	<body>
@@ -154,20 +169,19 @@
 				<td id="result" width="50%" align="center"></td>
 			</tr>
 		</table>
-		<div id="write">
-			<a href="insert.do">글쓰기</a>
-		</div>
 		
 		<table id="board" border="1">
 			<tr>
-				<th width="70%">제목</th>
-				<th width="15%">작성자</th>
-				<th width="15%">작성일자</th>
+				<th width="10%">제목</th>
+				<td width="40%"><input></td>
+				<th width="10%">작성자</th>
+				<td width="40%"><input></td>
 			</tr>
 			<tr>
-				<td><a href="view.do">샘플</a></td>
-				<td><a href="#">샘플</a></td>
-				<td><a href="#">샘플</a></td>
+				<td width="70%" height="800px" colspan="4">
+					<textarea name="content" rows="50" cols="140" placeholder="내용을 쓰세요"></textarea>
+					<a href="#">작성완료</a>
+				</td>
 			</tr>
 		</table>
 		
