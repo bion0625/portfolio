@@ -175,9 +175,11 @@
 		<table id="board" border="2">
 			<tr>
 				<th width="10%">제목</th>
-				<td width="40%">제목 샘플</td>
+				<td width="30%">제목 샘플</td>
 				<th width="10%">작성자</th>
-				<td width="40%">작성자 샘플</td>
+				<td width="20%">작성자 샘플</td>
+				<th width="10%">수정일</th>
+				<td width="20%">수정일 샘플</td>
 			</tr>
 			<tr>
 				<td colspan="4">
