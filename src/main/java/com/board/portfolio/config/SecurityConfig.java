@@ -8,8 +8,12 @@ import org.springframework.security.web.SecurityFilterChain;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
+/*
+* https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html
+* 스프링 시큐리티 6 버전 문서
+* */
 @Configuration
-@EnableWebSecurity // 스프링 시큐리티 6 버전으로 구현
+@EnableWebSecurity
 public class SecurityConfig {
     @Bean
     SecurityFilterChain web(HttpSecurity http) throws Exception {
