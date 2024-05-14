@@ -27,13 +27,11 @@ public class SecurityConfig {
 
         http
                 .authorizeHttpRequests((authorize) -> authorize
-                        // "/index", "/", "/login", "/logout" url 빼고는 로그인 필요
-                        .requestMatchers("/", "/index", "/logout").permitAll()
+                        // "/", "/login", "/logout" url 빼고는 로그인 필요
+                        .requestMatchers("/", "/logout").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(login -> login.loginPage("/login").permitAll());
-        // ...
-
         return http.build();
     }
 
