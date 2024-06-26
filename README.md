@@ -17,6 +17,7 @@
 # Spring 기술 사용 예정
 - @Configurable을 통한 DDD
 - @SessionAttributes를 통한 Model 관리
+- bindingResult 및 messageSource를 이용한 error처리
 
 # 현재 구현
 - 로그인 여부에 따른 root 페이지 접근 가능 여부(spring security 6) 구현 및 테스트 케이스 작성
