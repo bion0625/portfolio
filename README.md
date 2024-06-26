@@ -1,6 +1,6 @@
 # 포트폴리오 프로젝트
 
-- TDD(Test-driven Development)로 작업 예정
+- TDD(Test-driven Development) && DDD(Domain-driven Development)로 작업 예정
 
 # 사용된 기술: 계속 추가 예정
 - docker-compose
